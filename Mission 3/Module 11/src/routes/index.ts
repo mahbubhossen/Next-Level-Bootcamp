@@ -1,0 +1,27 @@
+import { IncomingMessage, ServerResponse } from "http";
+import addRoutes from "../helpers/RouteHandler";
+import sendJson from "../helpers/sendJson";
+import parseBody from "../helpers/parseBody";
+
+addRoutes("GET", "/", (req: IncomingMessage, res: ServerResponse) => {
+   
+    sendJson(res, 200 ,  {
+                message: "Hello from node js with typescript....",
+                path: req.url,
+            } );
+});
+
+
+addRoutes("GET", "/api", (req: IncomingMessage, res: ServerResponse) => {
+   
+    sendJson(res, 200 ,  {
+                message: "Health status ok",
+                path: req.url,
+            } );
+});
+
+
+addRoutes("POST", "/api/users", async(req: IncomingMessage, res: ServerResponse) => {
+    const body = await parseBody(req);
+    sendJson(res, 201 ,  {success: true , data : body} );
+})
