@@ -1,1 +1,3 @@
-you need to know both fundamental concepts and perfect use of AI tools . 
+## 📌 Key Requirement
+
+> **You need to know both fundamental concepts and the perfect use of AI tools.**
