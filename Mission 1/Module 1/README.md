@@ -115,7 +115,7 @@ for (let i = 0; i < 5; i++) {
 ### 🔍 How to Find the Time Complexity of a Code Snippet
 
 See this file:
-📄 `index.js`
+📄 [index.js](./Mission%201/Module%201/index.js)
 📂 `Mission 1 / Module 1 / index.js`
 
 ---
@@ -123,7 +123,7 @@ See this file:
 ### 🧩 Set Function
 
 See this file:
-📄 `set.js`
+📄 [set.js](./Mission%201/Module%201/set.js)
 📂 `Mission 1 / Module 1 / set.js`
 
 ---
@@ -131,8 +131,9 @@ See this file:
 ### 🧹 How to Remove Duplicate Values from an Array
 
 See this file:
-📄 `removeDuplicate.js`
+📄 [removeDuplicate.js](./Mission%201/Module%201/removeDuplicate.js)
 📂 `Mission 1 / Module 1 / removeDuplicate.js`
+
 
 
 
