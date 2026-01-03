@@ -8,24 +8,6 @@ const postsArray = [
   { id: "p-104", title: "CSS Grid Tricks", author: "Alex" },
 ];
 
-const lookupTable = postsArray.reduce ((table , post) => {
-    table[post.id] = post;
-    return table;
-},{});
-// console.log(lookupTable);
-
-
-//! const post = postsArray.find((post) => post.id ==="p-103");
-// console.log(post)
-
-const post = lookupTable["p-103"];
-// console.log(post)
-
-
-for(const post in lookupTable){
-    console.log(lookupTable[post])
-}
-
 //? Output
 // {
 //   "p-101": { "id": "p-101", "title": "Intro to SQL", "author": "Alex" },
@@ -33,3 +15,22 @@ for(const post in lookupTable){
 //   "p-103": { "id": "p-103", "title": "Understanding Reduce", "author": "Chris" },
 //   "p-104": { "id": "p-104", "title": "CSS Grid Tricks", "author": "Alex" }
 // }
+
+const lookupTable = postsArray.reduce((table, post) => {
+  table[post.id] = post;
+  return table;
+}, {});
+console.log(lookupTable);
+
+// we can find a post by this method with a id but it's not efficient
+//! const post = postsArray.find((post) => post.id ==="p-103");
+// console.log(post)
+
+// we can do this same task by lookuptable in just a moment
+const post = lookupTable["p-103"];
+console.log(post);
+
+// Iterating over the lookup table
+for (const post in lookupTable) {
+  console.log(lookupTable[post]);
+}

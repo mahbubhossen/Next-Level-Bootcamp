@@ -24,12 +24,13 @@ const posts = [
 //   { id: 103, name: 'Charlie', posts: [ { id: 4, ... } ] }
 // ]
 
+
 //TODO create a lookup table 
 
-
+// 0(n)
 const postByUserId = posts.reduce((table , post) => {
     const {userId } = post;
-    if(!table[post.userId]){
+    if(!table[userId]){
         table[userId] = [];
     }
 
@@ -37,9 +38,11 @@ const postByUserId = posts.reduce((table , post) => {
     return table;
 }, {});
 
+// 0(n)
 const userWithPosts = users.map((user) => {
     return {
         ...user,
+        // 0(1)
         posts : postByUserId[user.id] || [],
     }
 })

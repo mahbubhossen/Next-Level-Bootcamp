@@ -13,7 +13,7 @@ const surveyResponses = [
   "C",
   "A",
   "B",
-  "D",
+  "D", 
   "A",
   "C",
   "B",
@@ -30,6 +30,8 @@ const surveyResponses = [
 //TODO if not then initialize with 1
 
 const count = surveyResponses.reduce((table, response ) => {
+    console.log(table, " : ", response);    
+    
     if(table[response]){
         table[response] += 1;
 

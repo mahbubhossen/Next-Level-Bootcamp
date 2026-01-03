@@ -1,12 +1,12 @@
+// Sort  
+
 const numbers = [40,100,1,5,25,10];
 const fruits = ["Banana", "apple", "Cherry", "date"];
 
 // const sortedNumber = numbers.sort();
-
-// const sortedNumber = numbers.sort((a, b) => a - b); // small to large (ascending order)
-const sortedNumber = numbers.sort((a, b) => b - a); // large to small (descending order)
-
-const sortedFruits = fruits.sort((a,b) => a.localeCompare(b)); //alphabetical order
+// const sortedNumber = numbers.sort((a, b) => a - b);    // small to large (ascending order)
+const sortedNumber = numbers.sort((a, b) => b - a);      // large to small (descending order)
+const sortedFruits = fruits.sort((a,b) => a.localeCompare(b));     //alphabetical order
 
 // console.log(numbers)
 // console.log(sortedNumber);
@@ -14,14 +14,34 @@ const sortedFruits = fruits.sort((a,b) => a.localeCompare(b)); //alphabetical or
 // console.log(sortedFruits);
 
 
+
+// Nested Array  flat : 
+
+/*
+const arr = [1, 2, 3, [4, 5]];
+const flatArr = arr.flat();
+console.log(flatArr);
+*/
+
+// normally flat can break one layer . If we call in the flat function 2 or many more it will break this  . 
+/*
+const arr = [1,2,3,[4,5, [6,7]]];
+const flatArr = arr.flat(2);
+console.log(flatArr)
+*/
+
+// we can use infinity function for multi layer array . 
+/*
 const arr = [1,2,3,[4,5, [6,7, [8,9,[10,11]]]]];
 const flatArr = arr.flat(Infinity);
-// console.log(flatArr)
+console.log(flatArr)
+*/
+
 
 const tagsFromPosts = [
     ["javascript", "react", "css"],
     ["node", "express"],
     ["css", "html", "react"]
 ];
-const filterTags = new Set (tagsFromPosts.flat());
+const filterTags = [...new Set (tagsFromPosts.flat())];  // ... for keeping array format
 console.log(filterTags)

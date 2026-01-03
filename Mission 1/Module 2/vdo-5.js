@@ -1,17 +1,21 @@
+// Reduce : 
+
+// calculate cart subtotal :
 const cartItems = [
   { id: "p-001", name: "Daraz Laptop Bag", price: 1500, quantity: 1 },
   { id: "p-002", name: "Walton USB-C Cable", price: 350, quantity: 2 },
   { id: "p-003", name: "Aarong Kurta", price: 2200, quantity: 1 },
 ];
 
-const subtotal = cartItems.reduce((subtotal , product) => {
-    // console.log(subtotal, product);
+const subtotal = cartItems.reduce((subtotal , product) => {  // here subtotal is accumulator and product is current value .accumulator means it is the value that we want to see in the result .  
+    // console.log(subtotal, product);  
     return subtotal + product.price * product.quantity;
 }, 0);
-// console.log(subtotal)
+// console.log(subtotal)      
 
 
 
+// find best player : 
 const players = [
   { name: "Jamal Bhuyan", score: 88 },
   { name: "Shekh Morsalin", score: 81 },
