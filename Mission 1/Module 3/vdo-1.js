@@ -1,5 +1,6 @@
-//* State;ess vs Stateful 
+//* Stateless vs Stateful 
 
+// Stateless : it can not hold data . example : functions , methods etc.
 // const counter = (amount) => {
 //     let count = 0;
 //     count = count + amount;
@@ -11,6 +12,7 @@
 
 
 
+// Stateful : it can hold data . example : object , class etc.
 const counter = {
     count : 0,
 

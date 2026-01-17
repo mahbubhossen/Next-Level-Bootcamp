@@ -1,3 +1,5 @@
+
+// Closure : it is a function that returns a function
 // const createCounter = () => {
 //     let count = 0;
 
@@ -13,9 +15,12 @@
 // console.log(counter(8));
 
 
+//Class : We can make multiple counter objects with same structure using class
 
 class Counter {
+
     constructor(count){
+        // when we use same name under the class then we use this keyword
         this.count = count;
     }
 
