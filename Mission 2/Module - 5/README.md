@@ -1,9 +1,9 @@
-Module - 5 : Explore Basic type of TypeScripts
+### Module - 5 : Explore Basic type of TypeScripts
 
-NVM ( Node Version Manager )  :
+### NVM ( Node Version Manager )  :
 nvm install 24.11.0 (when which version need )
 
-**Basic NVM Commands**
+**Basic NVM Commands:**
 
 | Command | Description |
 | --- | --- |
@@ -25,7 +25,7 @@ nvm install 24.11.0 (when which version need )
 
 ---
 
-Here’s how you’ll usually use NVM in real life 👇
+### Here’s how you’ll usually use NVM in real life 👇
 
  1. Check NVM version
 nvm version
@@ -48,18 +48,28 @@ npm -v
 
 
 
-Typescript :  
+### Typescript :  
 .ts extension 
+---
 for run : node test.ts
+---
 after 22.6.0 node version typescript run in nodejs . 
+---
 For installing typescripts : npm install -g typescript 
+---
 tsc => for typescript to javascript convert
+---
 tsc test.ts ⇒ create automatic  js file code 
+---
 tsc —init ⇒ for create tsconfig.json file .
+---
 
-enable this two from tsconfig.json file :  
+### enable this two from tsconfig.json file :  
+---
   "rootDir": "./src",  // this for all typescript file
+---
   "outDir": "./dist",  // dist for all js file which will convert from ts
+---
 
 
 ### 🔹 First ts file 
@@ -71,7 +81,7 @@ See this file:
 ### 🔹 Primitive types  
 
 See this file:  
-📄 [primitive.ts](https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%202/Module%20-%205/TypeScript-learning/src/premitive.ts)
+📄 [primitive.ts](https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%202/Module%20-%205/TypeScript-learning/src/primitive.ts)
 
 --- 
 ### 🔹 Non Primitive types  
