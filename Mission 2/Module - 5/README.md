@@ -124,12 +124,7 @@ Enable the following options:
 * **rootDir**: Contains all TypeScript (`.ts`) files
 * **outDir**: Contains all compiled JavaScript (`.js`) files generated from TypeScript
 
-```
-
 ---
- 
-
-
 
 ### 🔹 First ts file 
 
