@@ -1,4 +1,6 @@
-**TypeScript** along with **Node Version Manager (NVM)** usage, configuration, and core TypeScript concepts.
+# Module 5: Explore Basic Types of TypeScript 🚀
+
+This module covers the fundamentals of **TypeScript** along with **Node Version Manager (NVM)** usage, configuration, and core TypeScript concepts.
 
 ---
 
