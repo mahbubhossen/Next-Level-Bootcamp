@@ -14,7 +14,7 @@ biyerJonnoEligible(21)
 
 
 
-// ?? : nullish coalescing operator : null or undefined 
+// ?? : nullish coalescing operator : null or undefined  (it only works for undefined or null value . )
 
 const userTheme = undefined; // or null
 const selectedTheme = userTheme ?? "dark theme";
@@ -24,6 +24,8 @@ const userTheme2 = "green theme"; // or null
 const selectedTheme2 = userTheme2 ?? "dark theme";
 // console.log(selectedTheme2)
 
+
+// ternary + nullish coalescing
 
 // const isAuthenticated = null;
 const isAuthenticated = "";

@@ -1,5 +1,6 @@
-//object destructuring 
+// Destructuring(object and array) 
 
+//object destructuring 
 const user = {
     id : 123,
     name : {
@@ -15,7 +16,6 @@ const user = {
 // const myMiddleName = user.name.middleName;
 // console.log(myFvrtColor)
 // console.log(myMiddleName)
-
 
 const {fvrtColor : myfvrtColor , name: {middleName : myMiddleName}} = user;
 console.log(myfvrtColor, myMiddleName)

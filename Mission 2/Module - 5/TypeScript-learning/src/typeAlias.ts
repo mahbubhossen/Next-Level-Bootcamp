@@ -1,3 +1,5 @@
+// type alias
+
 type user = {
     id : number;
     name : {
@@ -11,6 +13,7 @@ type user = {
         city : string;
     };
 };
+
  const user1: user = {
     id : 123, 
     name : {
@@ -40,6 +43,6 @@ type user = {
 };
 
 
-
+// type alias in function 
 type addFunc = (num1 : number ,  num2 : number) => number;
 const add: addFunc = (num1 , num2 ) => num1 + num2;
