@@ -1,75 +1,134 @@
-### Module - 5 : Explore Basic type of TypeScripts
 
-### NVM ( Node Version Manager )  :
-nvm install 24.11.0 (when which version need )
+# Module 5: Explore Basic Types of TypeScript
 
-**Basic NVM Commands:**
+## NVM (Node Version Manager)
 
-| Command | Description |
-| --- | --- |
-| `nvm version` | Shows the version of NVM installed |
-| `nvm list` or `nvm ls` | Lists all Node.js versions installed on your system |
-| `nvm list available` or `nvm ls available` | Shows all Node.js versions you can install |
-| `nvm install <version>` | Installs a specific Node.js version (e.g., `nvm install 18.17.0`) |
-| `nvm use <version>` | Switches to a specific Node.js version (e.g., `nvm use 20.10.0`) |
-| `nvm uninstall <version>` | Uninstalls a specific Node.js version |
-| `nvm current` | Shows which Node.js version is currently active |
-| `nvm install latest` | Installs the latest available Node.js version |
-| `nvm install lts` | Installs the latest **LTS (Long-Term Support)** version |
-| `nvm use lts` | Switches to the latest LTS version |
-| `nvm use latest` | Switches to the latest version installed |
-| `nvm root` | Shows the folder where NVM stores Node versions |
-| `nvm alias <name> <version>` | Creates a shortcut for a specific version (e.g., `nvm alias default 18.17.0`) |
-| `nvm alias default <version>` | Sets a default Node version for all terminals |
-| `nvm uninstall <version>` | Removes a Node.js version you no longer need |
+Install a specific Node.js version when needed:
+```bash
+nvm install 24.11.0
+````
+
+### Basic NVM Commands
+
+| Command                                    | Description                                                                  |
+| ------------------------------------------ | ---------------------------------------------------------------------------- |
+| `nvm version`                              | Shows the version of NVM installed                                           |
+| `nvm list` or `nvm ls`                     | Lists all Node.js versions installed on your system                          |
+| `nvm list available` or `nvm ls available` | Shows all Node.js versions you can install                                   |
+| `nvm install <version>`                    | Installs a specific Node.js version (e.g. `nvm install 18.17.0`)             |
+| `nvm use <version>`                        | Switches to a specific Node.js version (e.g. `nvm use 20.10.0`)              |
+| `nvm uninstall <version>`                  | Uninstalls a specific Node.js version                                        |
+| `nvm current`                              | Shows which Node.js version is currently active                              |
+| `nvm install latest`                       | Installs the latest available Node.js version                                |
+| `nvm install lts`                          | Installs the latest **LTS (Long-Term Support)** version                      |
+| `nvm use lts`                              | Switches to the latest LTS version                                           |
+| `nvm use latest`                           | Switches to the latest installed version                                     |
+| `nvm root`                                 | Shows the folder where NVM stores Node.js versions                           |
+| `nvm alias <name> <version>`               | Creates a shortcut for a specific version (e.g. `nvm alias default 18.17.0`) |
+| `nvm alias default <version>`              | Sets a default Node.js version for all terminals                             |
+| `nvm uninstall <version>`                  | Removes a Node.js version you no longer need                                 |
 
 ---
 
-### Here’s how you’ll usually use NVM in real life 👇
+### How NVM Is Commonly Used in Real Life 👇
 
- 1. Check NVM version
+1. **Check NVM version**
+
+```bash
 nvm version
+```
 
- 2. See what Node versions are installed
+2. **See installed Node.js versions**
+
+```bash
 nvm list
+```
 
-3. Install a new Node version
+3. **Install a new Node.js version**
+
+```bash
 nvm install 20
+```
 
- 4. Switch to that version
+4. **Switch to that version**
+
+```bash
 nvm use 20
+```
 
- 5. Set it as default for all terminals
+5. **Set it as the default for all terminals**
+
+```bash
 nvm alias default 20
+```
 
- 6. Verify it’s active
+6. **Verify the active version**
+
+```bash
 node -v
 npm -v
+```
 
-
-
-### Typescript :  
-.ts extension 
----
-for run : node test.ts
----
-after 22.6.0 node version typescript run in nodejs . 
----
-For installing typescripts : npm install -g typescript 
----
-tsc => for typescript to javascript convert
----
-tsc test.ts ⇒ create automatic  js file code 
----
-tsc —init ⇒ for create tsconfig.json file .
 ---
 
-### enable this two from tsconfig.json file :  
+## TypeScript
+
+* TypeScript files use the `.ts` extension
+* Run a TypeScript file directly:
+
+```bash
+node test.ts
+```
+
+* From Node.js version **22.6.0+**, TypeScript can run directly in Node.js
+
+### Installing TypeScript
+
+```bash
+npm install -g typescript
+```
+
+### Common TypeScript Commands
+
+* `tsc` → Converts TypeScript to JavaScript
+
+* Convert a file:
+
+```bash
+tsc test.ts
+```
+
+This will automatically create a JavaScript (`.js`) file
+
+* Initialize TypeScript configuration:
+
+```bash
+tsc --init
+```
+
+This creates a `tsconfig.json` file
+
 ---
-  "rootDir": "./src",  // this for all typescript file
+
+### Required Settings in `tsconfig.json`
+
+Enable the following options:
+
+```json
+{
+  "rootDir": "./src",
+  "outDir": "./dist"
+}
+```
+
+* **rootDir**: Contains all TypeScript (`.ts`) files
+* **outDir**: Contains all compiled JavaScript (`.js`) files generated from TypeScript
+
+```
+
 ---
-  "outDir": "./dist",  // dist for all js file which will convert from ts
----
+ 
+
 
 
 ### 🔹 First ts file 
