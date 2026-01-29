@@ -54,13 +54,13 @@ See this file:
 ### 🔹 as const
 
 See this file:  
-📄 [asConst.ts](https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%202/Module%20-%206/TypeScript-learning/src/asConst.ts)
+📄 [asConst.ts](https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%202/Module%20-%206/asConst.ts)
 
 --- 
 ### 🔹 conditional type
 
 See this file:  
-📄 [conditionalType.ts](https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%202/Module%20-%206/TypeScript-learning/src/conditionalType.ts)
+📄 [conditionalType.ts](https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%202/Module%20-%206/keyOfConstraint.ts)
 
 --- 
 ### 🔹 mapped types  
