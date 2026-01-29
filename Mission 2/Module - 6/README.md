@@ -1,0 +1,78 @@
+
+# Module 6: Explore Advance Types of TypeScript
+
+
+
+### 🔹 Type Assertion 
+
+See this file:  
+📄 [typeAssertion.ts](https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%202/Module%20-%206/TypeScript-learning/src/typeAssertion.ts)
+
+--- 
+### 🔹 Type Interface  
+
+See this file:  
+📄 [interface.ts](https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%202/Module%20-%206/TypeScript-learning/src/interface.ts)
+
+--- 
+### 🔹 Generics  
+
+See this file:  
+📄 [generics.ts](https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%202/Module%20-%206/TypeScript-learning/src/generics.ts)
+
+--- 
+### 🔹 Generics With Interface
+
+See this file:  
+📄 [genericWithInterface.ts](https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%202/Module%20-%206/TypeScript-learning/src/genericWithInterface.ts)
+
+--- 
+### 🔹 Generics With Function  
+
+See this file:  
+📄 [genericFunction.ts](https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%202/Module%20-%206/TypeScript-learning/src/genericFunction.ts)
+
+--- 
+### 🔹 Constraint
+
+See this file:  
+📄 [constraint.ts](https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%202/Module%20-%206/TypeScript-learning/src/constraint.ts)
+
+--- 
+### 🔹 Key of constraint with generics
+
+See this file:  
+📄 [keyOfConstraint.ts](https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%202/Module%20-%206/TypeScript-learning/src/keyOfConstraint.ts)
+
+--- 
+### 🔹 Enum 
+
+See this file:  
+📄 [enum.ts](https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%202/Module%20-%206/TypeScript-learning/src/enum.ts)
+
+--- 
+### 🔹 as const
+
+See this file:  
+📄 [asConst.ts](https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%202/Module%20-%206/TypeScript-learning/src/asConst.ts)
+
+--- 
+### 🔹 conditional type
+
+See this file:  
+📄 [conditionalType.ts](https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%202/Module%20-%206/TypeScript-learning/src/conditionalType.ts)
+
+--- 
+### 🔹 mapped types  
+
+See this file:  
+📄 [mapped.ts](https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%202/Module%20-%206/TypeScript-learning/src/mapped.ts)
+
+--- 
+### 🔹 Utility types 
+
+See this file:  
+📄 [utilities.ts](https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%202/Module%20-%206/TypeScript-learning/src/utilities.ts)
+
+--- 
+
