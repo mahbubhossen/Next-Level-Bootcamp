@@ -5,7 +5,7 @@ const { a: x } = require("./file3");
 
 // console.log(a, x);
 
-const {add , subs } = require("./utils")
+const { add, subs } = require("./utils");  // require from index file
 
 console.log(add(x, a));
 console.log(subs(x, a));

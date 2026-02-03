@@ -1,2 +1,2 @@
 const a = 5;
-module.exports = {a} ;
+module.exports = { a };
