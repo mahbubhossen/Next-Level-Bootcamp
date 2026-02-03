@@ -122,7 +122,7 @@ Event Emitter → Event Listener → Callback Function
 
 ## 🔹 Global Functions in JavaScript
 
-Some important global APIs:
+Some important global APIs:j
 
 - `setTimeout()`
 - `clearTimeout()`
