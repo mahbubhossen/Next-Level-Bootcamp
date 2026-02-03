@@ -146,18 +146,14 @@ Used to deliver static assets faster from the nearest server.
 
 ---
 
-## 🔹 How to Import and Export (JavaScript Modules)
+### 🔹How to Import and Export (JavaScript Modules)
 
-### CommonJS Example
-
-📄 **file1.js**  
-🔗 https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%203/Module%209/file1.js
+See this file:  
+📄 [file1.js](https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%203/Module%209/file1.js)
 
 ---
 
-### ES Module Example
-
-📄 **file_es1.js**  
-🔗 https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%203/Module%209/file_es1.js
+See this file:  
+📄 [file_es1.js](https://github.com/mahbubhossen/Next-Level-Bootcamp/blob/main/Mission%203/Module%209/file_es1.js)
 
 ---
