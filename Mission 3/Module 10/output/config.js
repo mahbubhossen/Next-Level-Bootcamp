@@ -1,3 +1,8 @@
+/*
+npm init -y
+npm install dotenv
+*/
+
 require("dotenv").config();
 
 const config = {

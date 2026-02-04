@@ -1,0 +1,18 @@
+{
+  "name": "mission-3(nodejs)",
+  "version": "1.0.0",
+  "description": "npm init -y (npm initialization) => it will add package.json file\r npm i -D typescript \r tsc --init",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch  ./src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.2.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
