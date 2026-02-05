@@ -18,12 +18,19 @@ comment this :
 // "verbatimModuleSyntax": true,
 
 create src folder and create server.ts file
-then paste which copy from express file 
+then paste which copy from express file
 
-then install  : npm i --save-dev @types/express
+then install : npm i --save-dev @types/express
 
-npm i -D tsx  for : auto load server
+npm i -D tsx for : auto load server
 
-npm i pg  for : connection with postgresql
+npm i pg for : connection with postgresql
 
 npm i dotenv
+
+how to create table in database
+
+users CRUD operation
+todos CRUD operation
+middleware
+404 not found page
