@@ -34,3 +34,6 @@ users CRUD operation
 todos CRUD operation
 middleware
 404 not found page
+
+bcryptjs  for hashing 
+npm i jsonwebtoken

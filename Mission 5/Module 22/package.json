@@ -1,0 +1,25 @@
+{
+  "name": "module-22",
+  "version": "1.0.0",
+  "description": "first go to prisma website , then find postgresql from docs \r then copy this \r npm init\r npm install typescript tsx @types/node --save-dev\r npx tsc --init\r then paste in the terminal",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "@types/pg": "^8.20.0",
+    "prisma": "^7.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.6.0",
+    "@prisma/client": "^7.6.0",
+    "dotenv": "^17.4.0",
+    "pg": "^8.20.0"
+  }
+}
